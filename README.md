@@ -2,6 +2,8 @@
 
 T-Summer App is a modern T-shirt designer tool built with Vite, React, and Tailwind CSS. This app allows users to upload their custom logo, position it on a T-shirt, and download the final design as a PNG image. It's intuitive, responsive, and perfect for crafting personalized T-shirts.
 
+![Screenshot of T-Summer App in action]('./src/assets/iamges/tsammer.PNG')
+
 ## Features
 
 - **Drag and Drop Logo Placement:** Easily position your logo on the T-shirt by dragging it around.
@@ -13,17 +15,17 @@ T-Summer App is a modern T-shirt designer tool built with Vite, React, and Tailw
 
 ## Technologies Used
 
-- **React**: For building the user interface.
-- **Vite**: For a fast development environment.
-- **Tailwind CSS**: For styling the app.
-- **Lucide-React**: For modern and customizable icons.
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **Lucide-React**
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/t-summer-app.git
+   git clone https://github.com/shihab-sa/t-summer-app.git
    ```
 
 2. Navigate to the project directory:
@@ -44,8 +46,6 @@ T-Summer App is a modern T-shirt designer tool built with Vite, React, and Tailw
    npm run dev
    ```
 
-5. Open the app in your browser at `http://localhost:3000`.
-
 ## Usage
 
 1. Upload a logo using the **Upload** button.
@@ -60,8 +60,6 @@ src/
 ├── assets/
 │   └── images/
 │       └── t-shirt.jpg
-├── components/
-│   └── TshirtDesigner.jsx
 ├── App.jsx
 ├── main.jsx
 ├── index.css
@@ -79,8 +77,6 @@ npm run build
 The built files will be available in the `dist` directory. You can host this directory on any static server or deployment service like Vercel, Netlify, or GitHub Pages.
 
 ## Screenshots
-
-![Screenshot of T-Summer App in action](https://via.placeholder.com/800x400)
 
 ## Contributing
 
@@ -107,17 +103,6 @@ Contributions are welcome! To contribute:
 
 5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Acknowledgements
-
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Lucide React Icons](https://lucide.dev/)
-
 ## Contact
 
-For any questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
+Contact [shihabcodefy.com](mailto:your-email@example.com).
