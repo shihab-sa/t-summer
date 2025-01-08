@@ -1,118 +1,123 @@
-T-Summer App
+# T-Summer App
 
 T-Summer App is a modern T-shirt designer tool built with Vite, React, and Tailwind CSS. This app allows users to upload their custom logo, position it on a T-shirt, and download the final design as a PNG image. It's intuitive, responsive, and perfect for crafting personalized T-shirts.
 
-Features
+## Features
 
-Drag and Drop Logo Placement: Easily position your logo on the T-shirt by dragging it around.
+- **Drag and Drop Logo Placement:** Easily position your logo on the T-shirt by dragging it around.
+- **Resizable Logo:** Adjust the size of your logo to fit perfectly on the T-shirt.
+- **Upload Your Own Logo:** Upload custom images to use as logos.
+- **Real-Time Preview:** See your changes immediately as you design.
+- **Download as PNG:** Export your final T-shirt design as a PNG file.
+- **Responsive Design:** Works seamlessly on all devices.
 
-Resizable Logo: Adjust the size of your logo to fit perfectly on the T-shirt.
+## Technologies Used
 
-Upload Your Own Logo: Upload custom images to use as logos.
+- **React**: For building the user interface.
+- **Vite**: For a fast development environment.
+- **Tailwind CSS**: For styling the app.
+- **Lucide-React**: For modern and customizable icons.
 
-Real-Time Preview: See your changes immediately as you design.
+## Installation
 
-Download as PNG: Export your final T-shirt design as a PNG file.
+1. Clone the repository:
 
-Responsive Design: Works seamlessly on all devices.
+   ```bash
+   git clone https://github.com/your-username/t-summer-app.git
+   ```
 
-Technologies Used
+2. Navigate to the project directory:
 
-React: For building the user interface.
+   ```bash
+   cd t-summer-app
+   ```
 
-Vite: For a fast development environment.
+3. Install dependencies:
 
-Tailwind CSS: For styling the app.
+   ```bash
+   npm install
+   ```
 
-Lucide-React: For modern and customizable icons.
+4. Start the development server:
 
-Installation
+   ```bash
+   npm run dev
+   ```
 
-Clone the repository:
+5. Open the app in your browser at `http://localhost:3000`.
 
-git clone https://github.com/your-username/t-summer-app.git
+## Usage
 
-Navigate to the project directory:
+1. Upload a logo using the **Upload** button.
+2. Drag and position the logo on the T-shirt image.
+3. Resize the logo by dragging the resize handle at the bottom-right corner.
+4. Click the **Submit** button to generate and download the final design as a PNG image.
 
-cd t-summer-app
+## File Structure
 
-Install dependencies:
-
-npm install
-
-Start the development server:
-
-npm run dev
-
-Open the app in your browser at http://localhost:3000.
-
-Usage
-
-Upload a logo using the Upload button.
-
-Drag and position the logo on the T-shirt image.
-
-Resize the logo by dragging the resize handle at the bottom-right corner.
-
-Click the Submit button to generate and download the final design as a PNG image.
-
-File Structure
-
+```plaintext
 src/
 ├── assets/
-│ └── images/
-│ └── t-shirt.jpg
+│   └── images/
+│       └── t-shirt.jpg
 ├── components/
-│ └── TshirtDesigner.jsx
+│   └── TshirtDesigner.jsx
 ├── App.jsx
 ├── main.jsx
 ├── index.css
 └── tailwind.config.js
+```
 
-Deployment
+## Deployment
 
 To build the app for production:
 
+```bash
 npm run build
+```
 
-The built files will be available in the dist directory. You can host this directory on any static server or deployment service like Vercel, Netlify, or GitHub Pages.
+The built files will be available in the `dist` directory. You can host this directory on any static server or deployment service like Vercel, Netlify, or GitHub Pages.
 
-Screenshots
+## Screenshots
 
-Contributing
+![Screenshot of T-Summer App in action](https://via.placeholder.com/800x400)
+
+## Contributing
 
 Contributions are welcome! To contribute:
 
-Fork the repository.
+1. Fork the repository.
+2. Create a new branch:
 
-Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
 
-git checkout -b feature-name
+3. Make your changes and commit them:
 
-Make your changes and commit them:
+   ```bash
+   git commit -m "Add new feature"
+   ```
 
-git commit -m "Add new feature"
+4. Push your branch:
 
-Push your branch:
+   ```bash
+   git push origin feature-name
+   ```
 
-git push origin feature-name
+5. Open a pull request.
 
-Open a pull request.
-
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgements
+## Acknowledgements
 
-React
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide React Icons](https://lucide.dev/)
 
-Vite
+## Contact
 
-Tailwind CSS
-
-Lucide React Icons
-
-Contact
-
-For any questions or feedback, please contact your-email@example.com.
+For any questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
