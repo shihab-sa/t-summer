@@ -2,7 +2,7 @@
 
 T-Summer App is a modern T-shirt designer tool built with Vite, React, and Tailwind CSS. This app allows users to upload their custom logo, position it on a T-shirt, and download the final design as a PNG image. It's intuitive, responsive, and perfect for crafting personalized T-shirts.
 
-![Screenshot of T-Summer App in action]('./src/assets/iamges/tsammer.PNG')
+![Screenshot of T-Summer App in action](./src/assets/iamges/tsammer.PNG)
 
 ## Features
 
