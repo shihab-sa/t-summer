@@ -2,6 +2,39 @@ import tshirtImage from "./assets/iamges/t-shirt.jpg";
 import { Upload, Mouse } from "lucide-react";
 
 const TshirtDesigner = () => {
+  //----  All essential Hooks  --
+  const [logo, setLogo] = useState(null);
+  const [logoPosition, setLogoPosition] = useState({ x: 50, y: 50 });
+  const [logoSize, setLogoSize] = useState({ width: 100, height: 100 });
+  const [isDragging, setIsDragging] = useState(false);
+  const [isResizing, setIsResizing] = useState(false);
+
+  const tshirtRef = useRef(null);
+  const canvasRef = useRef(null);
+
+  // ------- Upload Handling The File
+  const handleFileChange = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      // Set the uploaded logo image
+      reader.onload = () => {
+        setLogo(reader.result);
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
+  // Handling The Drag
+  const handleMouseDown = (e) => {
+    const rect = tshirtRef.current.getBoundingClientRect();
+    setIsDragging(true);
+    setLogoPosition({
+      x: e.clientX - rect.left - logoSize.width / 2,
+      y: e.clientY - rect.top - logoSize.height / 2,
+    });
+  };
+
   return (
     <div className="min-h-screen bg-[#faeee7] flex justify-center items-center">
       <div className="flex flex-wrap space-x-4 p-4 text-white">
