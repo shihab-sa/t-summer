@@ -25,7 +25,7 @@ T-Summer App is a modern T-shirt designer tool built with Vite, React, and Tailw
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/t-summer-app.git
+   git clone https://github.com/shihab-sa/t-summer-app.git
    ```
 
 2. Navigate to the project directory:
@@ -46,7 +46,7 @@ T-Summer App is a modern T-shirt designer tool built with Vite, React, and Tailw
    npm run dev
    ```
 
-5. Open the app in your browser at `http://localhost:3000`.
+5. Open the app in your browser at `https://inspiring-souffle-eef7b4.netlify.app/`.
 
 ## Usage
 
@@ -118,4 +118,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 
-For any questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
+For any questions or feedback, please contact [shihabcodefy@gmail.com](mailto:your-email@example.com).
